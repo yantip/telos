@@ -2,6 +2,8 @@
 
 A beautiful, modern landing page for a playback engineering course in Hebrew.
 
+Repository: `https://github.com/yantip/BarelLandingPage`
+
 ## Features
 
 - ✨ Stunning dark/light mode with smooth transitions
@@ -44,6 +46,16 @@ npm run build
 
 # Start production server
 npm start
+```
+
+### Available Scripts
+
+```
+# Lint the project
+npm run lint
+
+# Format with Prettier (if configured)
+npm run format
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
@@ -113,6 +125,19 @@ This Next.js app can be deployed to:
 - **Netlify**: Connect your Git repo
 - **AWS Amplify**: Connect your Git repo  
 - **Any Node.js hosting**: Build with `npm run build` and serve with `npm start`
+
+## Releasing
+
+To create a release locally and push a version tag:
+
+```
+git tag v1.0.0 -m "Initial public release"
+git push origin v1.0.0
+```
+
+## Contributing
+
+Issues and pull requests are welcome. Please open an issue first to discuss major changes.
 
 ## License
 
